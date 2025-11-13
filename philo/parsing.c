@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parsing.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fsousa <fsousa@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/13 13:32:18 by fsousa            #+#    #+#             */
+/*   Updated: 2025/11/13 13:57:52 by fsousa           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 static int is_space(char c)
@@ -14,7 +26,7 @@ static const char *valid_input(const char *str)
 {
     int len;
     int i;
-    const char *value;
+    const char *value; 
 
     len = 0;
     i = 0;
